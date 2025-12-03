@@ -2,7 +2,7 @@
 
 Este projeto implementa uma Rede Neural Recorrente (RNN), especificamente uma **LSTM (Long Short-Term Memory)**, para realizar a previsão de vendas mensais no varejo. O objetivo é prever os valores de vendas para os próximos 12 meses com base no histórico temporal.
 
-## 📋 Descrição
+## Descrição
 
 O notebook aborda o problema de *Time Series Forecasting* (Previsão de Séries Temporais) utilizando Deep Learning. O pipeline do projeto inclui:
 1.  **Coleta e Carregamento de Dados:** Leitura de dados históricos de vendas.
@@ -14,7 +14,7 @@ O notebook aborda o problema de *Time Series Forecasting* (Previsão de Séries 
 4.  **Validação:** Teste do modelo em dados não vistos (conjunto de teste) e uso de *Early Stopping* para evitar overfitting.
 5.  **Previsão Futura:** Geração de previsões para 12 meses além do dataset original.
 
-## 📂 Dataset
+## Dataset
 
 Os dados utilizados representam as **Vendas Mensais Antecipadas para Varejo e Serviços de Alimentação** (Advance Monthly Sales for Retail and Food Services).
 
@@ -23,7 +23,7 @@ Os dados utilizados representam as **Vendas Mensais Antecipadas para Varejo e Se
 *   **Frequência:** Mensal.
 *   **Período:** Dados desde 1992.
 
-## 🛠 Tecnologias e Bibliotecas
+## Tecnologias e Bibliotecas
 
 *   **Python 3**
 *   **TensorFlow / Keras:** Para criação e treinamento da rede neural (LSTM).
@@ -31,7 +31,7 @@ Os dados utilizados representam as **Vendas Mensais Antecipadas para Varejo e Se
 *   **Scikit-learn:** Normalização dos dados (`MinMaxScaler`).
 *   **Matplotlib:** Visualização de gráficos de vendas e previsões.
 
-## 🧠 Arquitetura do Modelo
+## Arquitetura do Modelo
 
 A rede neural foi configurada da seguinte forma:
 *   **Entrada:** Sequências temporais geradas pelo `TimeseriesGenerator`.
@@ -41,13 +41,13 @@ A rede neural foi configurada da seguinte forma:
 *   **Loss Function:** MSE (Mean Squared Error).
 *   **Callback:** EarlyStopping monitorando `val_loss` com paciência de 2 épocas.
 
-## 📊 Resultados
+## Resultados
 
 O modelo demonstrou capacidade de capturar a sazonalidade e tendência dos dados de vendas.
 *   O notebook compara as **Vendas Reais vs. Previsões** no conjunto de teste.
 *   Ao final, é gerada uma tabela com o **Forecast** (previsão futura) para o período de **Novembro de 2019 a Outubro de 2020**.
 
-## 🚀 Como Executar
+## Como Executar
 
 1.  Certifique-se de ter o arquivo `sales_price.csv` ou atualize o código para baixar diretamente da fonte.
 2.  Abra o notebook `Pricing_forecast_RNN.ipynb` no Google Colab ou Jupyter.
