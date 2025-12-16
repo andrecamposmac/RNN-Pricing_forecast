@@ -58,4 +58,3 @@ O modelo demonstrou capacidade de capturar a sazonalidade e tendência dos dados
 4.  Execute todas as células para treinar o modelo e visualizar as previsões.
 
 ---
-**Autor:** André Campos Machado
