@@ -47,14 +47,6 @@ O modelo demonstrou capacidade de capturar a sazonalidade e tendência dos dados
 *   O notebook compara as **Vendas Reais vs. Previsões** no conjunto de teste.
 *   Ao final, é gerada uma tabela com o **Forecast** (previsão futura) para o período de **Novembro de 2019 a Outubro de 2020**.
 
-## Como Executar
-
-1.  Certifique-se de ter o arquivo `sales_price.csv` ou atualize o código para baixar diretamente da fonte.
-2.  Abra o notebook `Pricing_forecast_RNN.ipynb` no Google Colab ou Jupyter.
-3.  Ajuste o caminho do arquivo na célula de carregamento:
-    ```python
-    df = pd.read_csv('caminho/para/sales_price.csv', ...)
-    ```
-4.  Execute todas as células para treinar o modelo e visualizar as previsões.
-
+## Fonte:
+Este notebook é uma adaptação de um dos exercícios do curso "Complete Tensorflow 2 and Keras Deep Learning Bootcamp" (disponível na Udemy) com autoria de Jose Portilla (Perian Training).
 ---
