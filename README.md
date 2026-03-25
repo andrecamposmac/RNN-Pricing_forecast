@@ -48,6 +48,5 @@ O modelo demonstrou capacidade de capturar a sazonalidade e tendência dos dados
 *   Ao final, é gerada uma tabela com o **Forecast** (previsão futura) para o período de **Novembro de 2019 a Outubro de 2020**.
 
 ## Fonte:
-
 Este notebook é uma adaptação de um dos exercícios do curso "Complete Tensorflow 2 and Keras Deep Learning Bootcamp" (disponível na Udemy) com autoria de Jose Portilla (Perian Training).
 ---
